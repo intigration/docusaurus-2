@@ -1,0 +1,98 @@
+---
+title: Building Blocks
+description: building blocks that make up the MI Core
+---
+
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+import GenericBuildingBlocks from '/img/docs/mlops/generic.svg'
+import VisIntBuildingBlocks from '/img/docs/mlops/visualintelligence.svg'
+import PredAnaBuildingBlocks from '/img/docs/mlops/predictiveanalytics.svg'
+import SmaSysBuildingBlocks from '/img/docs/mlops/smartsystems.svg'
+/* import DatReadBuildingBlocks from '../../static/img/docs/mlops/datareadiness.svg' */
+/* import DigiCompBuildingBlocks from '../../static/img/docs/mlops/digitalcompanion.svg' */
+
+## Overview
+
+<Tabs
+    defaultValue="generic"
+    values={[
+        { label: 'Generic', value: 'generic' },
+        { label: 'Predictive Analytics', value: 'predictiveanalytics' },
+        { label: 'Smart Systems', value: 'smartsystems' },
+        { label: 'Visual Intelligence', value: 'visualintelligence' },
+        { label: 'Data Readiness', value: 'datareadiness' },
+        { label: 'Digital Companion', value: 'digitalcompanion' },
+    ]}
+>
+    <TabItem value="generic">
+        <GenericBuildingBlocks />{' '}
+    </TabItem>
+    <TabItem value="predictiveanalytics">
+        <PredAnaBuildingBlocks />{' '}
+    </TabItem>
+    <TabItem value="smartsystems">
+        <SmaSysBuildingBlocks />{' '}
+    </TabItem>
+    <TabItem value="visualintelligence">
+        <VisIntBuildingBlocks />{' '}
+    </TabItem>
+    <TabItem value="datareadiness">work in progress</TabItem>
+    <TabItem value="digitalcompanion">work in progress</TabItem>
+</Tabs>
+
+## The building blocks
+
+### MLOps
+
+#### Ontologies, (meta) data formats
+
+#### AI-enabled data preprocessing
+
+#### AutoML
+
+#### Hyperparameter tuning
+
+#### Evaluation framework
+
+#### Development templates
+
+#### CI/CD
+
+#### Automated and scalable model training
+
+#### Model hardening/reduction/optimization
+
+#### Model updates
+
+#### Model monitoring
+
+### Presistance
+
+### Preprocessing
+
+### Modeling
+
+### Packaging
+
+### Deployment
+
+#### Cloud
+
+#### Edge
+
+## Further Reading
+
+### Internal resources
+
+-   [Assetbase](/assetbase)
+-   [IOT platform](https://iot-platform.code.siemens.io/)
+-   [Industrial edge perception](https://code.siemens.com/industrialedgeperception/iep/-/wikis/home)(access restricted)
+
+### External resources
+
+-   [Different maturity levels of MLOps - Google cloud platform](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning?hl=de)
+-   [Why you need machine learning governance - Algorithmia](https://algorithmia.com/blog/why-you-need-machine-learning-governance-governor-brainards-recent-speech-about-responsible-ai)
+-   [Hidden Technical Debt in Machine Learning Systems - Google@Neurips2017](https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)
+-   [Is Kubeflow dead? - Medium.com](https://medium.com/mlops-community/is-kubeflow-dead-d82aadba14c0)
+-   [What is GitOps? - Gitlab](https://about.gitlab.com/topics/gitops/)
